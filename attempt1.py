@@ -26,7 +26,7 @@ for i in range(0, n):
     else:
         lst.append(file)
     
-lst.sort()
+sorted(lst)
 print(lst)
 print(lst_file_names)
 time_taken = timeit.timeit()
